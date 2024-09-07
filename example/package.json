@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "example": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qbot-sdk": "^1.0.11"
+  }
+}
