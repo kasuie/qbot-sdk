@@ -1,6 +1,6 @@
 {
   "name": "qbot-sdk",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": false,
   "author": "kasuie",
   "license": "MIT",
@@ -10,6 +10,16 @@
   "files": [
     "dist",
     "*.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasuie/qbot-sdk.git"
+  },
+  "keywords": [
+    "qq",
+    "bot",
+    "tencent",
+    "nodejs"
   ],
   "engines": {
     "pnpm": ">=7"
