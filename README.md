@@ -1,6 +1,6 @@
 # QQ 机器人 Node SDK: qbot-sdk ✨
 
-基于 [官方 SDK](https://github.com/tencent-connect/bot-node-sdk) ，由于官方长期未更新，缺少很多新的东西，所以增加了群消息接收与发送功能，由此拓展封装了一下。
+基于 [官方 SDK](https://github.com/tencent-connect/bot-node-sdk) ，由于官方长期未更新，缺少很多新的东西，这里增加了群消息接收与发送功能，优化了一些问题，由此拓展封装了一下。
 
 # 使用方法
 
