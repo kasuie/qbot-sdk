@@ -1,17 +1,11 @@
 {
   "name": "qbot-sdk",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "private": false,
   "author": "kasuie",
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js"
-    }
-  },
   "types": "dist/src/index.d.ts",
   "files": [
     "dist",

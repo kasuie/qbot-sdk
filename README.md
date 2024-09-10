@@ -1,6 +1,6 @@
-# QQ 机器人 SDK qbot-sdk
+# QQ 机器人 Node SDK: qbot-sdk ✨
 
-QQ 机器人 SDK，基于 [官方 SDK](https://github.com/tencent-connect/bot-node-sdk) 改版而来，增加群消息接收与发送功能
+基于 [官方 SDK](https://github.com/tencent-connect/bot-node-sdk) ，由于官方长期未更新，缺少很多新的东西，所以增加了群消息接收与发送功能，由此拓展封装了一下。
 
 # 使用方法
 
@@ -12,7 +12,7 @@ npm i qbot-sdk
 
 ## 引用
 
-> 可参见[example](/example)中样例
+> 可参见代码仓库目录[example](/example)中样例
 
 ```js
 const {
@@ -60,6 +60,8 @@ ws.on(AvailableIntentsEventsEnum.GROUP_MESSAGES, async (data) => {
 });
 ```
 
+其他方法和事件请查看[官方文档](https://bot.q.qq.com/wiki/develop/nodesdk/)，与官方文档保持一致。
+
 # 注意
 
-非官方 SDK，在官方基础上改出的 SDK，本 SDK 带来的所有影响与官方无关，详细的使用请参加官方文档。
+本 SDK 带来的所有影响与官方无关。

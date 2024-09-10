@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "qbot-sdk": "^1.0.11"
+    "qbot-sdk": "^1.0.12"
   }
 }

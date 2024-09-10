@@ -2,14 +2,16 @@
  * @Author: kasuie
  * @Date: 2024-09-07 15:52:41
  * @LastEditors: kasuie
- * @LastEditTime: 2024-09-07 18:29:29
+ * @LastEditTime: 2024-09-10 20:11:07
  * @Description:
  */
+
 const {
   createOpenAPI,
   createWebsocket,
   AvailableIntentsEventsEnum,
 } = require("qbot-sdk");
+
 // import {
 //   createOpenAPI,
 //   createWebsocket,
